@@ -1,0 +1,16 @@
+namespace MedicalRecords.Core.Entities
+{
+    public class Patient
+    {
+        public int Id { get; set; }
+        public required string FirstName { get; set; }
+        public required string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public required string Gender { get; set; }
+        public required string Email { get; set; }
+        public string? PhoneNumber { get; set; }
+        public DateTime CreatedDate { get; set; }
+    }
+}
+
+
